@@ -1,7 +1,7 @@
 {
   "name": "usage-saver",
-  "version": "1.0.0",
-  "description": "Cuts wasted Claude Code tokens without lowering answer quality: lean-usage rules, a Haiku scout and a Sonnet runner for side work, and a usage skill.",
+  "version": "1.1.0",
+  "description": "Cuts wasted Claude Code tokens without lowering answer quality: lean-usage rules, data-analysis rules for beehiiv and the AWS data lake, Haiku scouts and Sonnet runners for side work, and usage and data skills.",
   "author": { "name": "EssentiallySports" },
-  "keywords": ["usage", "cost", "tokens", "subagents", "haiku", "sonnet"]
+  "keywords": ["usage", "cost", "tokens", "subagents", "haiku", "sonnet", "data-analysis", "beehiiv", "athena"]
 }
