@@ -12,7 +12,7 @@ Cuts wasted tokens in Claude Code without lowering answer quality: fewer re-read
 
 ## Install (each person, once)
 ```
-/plugin marketplace add <org>/usage-saver-plugin
+/plugin marketplace add essentiallysports-tech/usage-saver-plugin
 /plugin install usage-saver@usage-saver-marketplace
 ```
 Then restart Claude Code (or run `/reload-plugins`). Try a local copy first with `/plugin marketplace add /path/to/usage-saver-plugin`.
@@ -29,7 +29,7 @@ Add the marketplace in managed settings so it installs for everyone:
 ```json
 {
   "extraKnownMarketplaces": {
-    "usage-saver-marketplace": { "source": { "source": "github", "repo": "<org>/usage-saver-plugin" } }
+    "usage-saver-marketplace": { "source": { "source": "github", "repo": "essentiallysports-tech/usage-saver-plugin" } }
   },
   "enabledPlugins": { "usage-saver@usage-saver-marketplace": true }
 }
