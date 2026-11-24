@@ -1,0 +1,7 @@
+{
+  "name": "usage-saver",
+  "version": "1.0.0",
+  "description": "Cuts wasted Claude Code tokens without lowering answer quality: lean-usage rules, a Haiku scout and a Sonnet runner for side work, and a usage skill.",
+  "author": { "name": "EssentiallySports" },
+  "keywords": ["usage", "cost", "tokens", "subagents", "haiku", "sonnet"]
+}

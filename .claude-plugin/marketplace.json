@@ -1,0 +1,13 @@
+{
+  "name": "usage-saver-marketplace",
+  "description": "Usage Saver: lower Claude Code usage with the same answers.",
+  "owner": { "name": "EssentiallySports" },
+  "plugins": [
+    {
+      "name": "usage-saver",
+      "source": "./plugins/usage-saver",
+      "description": "Cuts wasted Claude Code tokens without lowering answer quality: lean rules, Haiku scout + Sonnet runner subagents, usage skill.",
+      "author": { "name": "EssentiallySports" }
+    }
+  ]
+}
